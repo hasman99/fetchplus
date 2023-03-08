@@ -4,6 +4,9 @@
   "description": "More-or-less a typed zlfetch",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc"
   },
