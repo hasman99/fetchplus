@@ -1,0 +1,15 @@
+{
+  "name": "fetchplus",
+  "version": "1.0.0",
+  "description": "More-or-less a typed zlfetch",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Sam Haslam",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

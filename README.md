@@ -1,2 +1,3 @@
 # fetchplus
-More or less typed zlfetch
+
+More or less typed [zlfetch](https://github.com/zellwk/zl-fetch)
