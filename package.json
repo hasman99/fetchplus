@@ -4,15 +4,18 @@
   "description": "More-or-less a typed zlfetch",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "tsc"
   },
   "author": "Sam Haslam",
   "license": "MIT",
   "devDependencies": {
+    "@types/humps": "^2.0.2",
+    "@types/qs": "^6.9.7",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "humps": "^2.0.1",
+    "qs": "^6.11.1"
   }
 }
