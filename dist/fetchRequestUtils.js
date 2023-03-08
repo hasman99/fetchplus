@@ -4,7 +4,7 @@ export const getFetchOptions = (fetchplusOptions) => {
     const fetchOptionsHeaders = getFetchOptionsHeaders(fetchplusOptions);
     const fetchOptionsBody = getFetchOptionsBody(fetchplusOptions, fetchOptionsHeaders.get('content-type'));
     return {
-        method: fetchplusOptions.method,
+        method: fetchplusOptions.method.toUpperCase(),
         headers: fetchOptionsHeaders,
         body: fetchOptionsBody,
     };
