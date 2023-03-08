@@ -25,6 +25,9 @@ export const fetchplus = async (
     .then((error) => handleFetchError(error));
 };
 
+export * from './types';
+export * from './errors';
+
 const handleFetchSuccess = async (fetchResponse: Response) => {
   const responseType = getFetchResponseType(fetchResponse);
   const body =

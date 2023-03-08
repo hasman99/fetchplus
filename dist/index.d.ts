@@ -7,3 +7,5 @@ import { FetchplusOptions, FetchplusResponse } from './types';
  * @throws FailedToFetchError, FetchplusError
  */
 export declare const fetchplus: (baseUrl: string, options: FetchplusOptions) => Promise<FetchplusResponse>;
+export * from './types';
+export * from './errors';

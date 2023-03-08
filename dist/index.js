@@ -14,6 +14,8 @@ export const fetchplus = async (baseUrl, options) => {
         .then((response) => handleFetchSuccess(response))
         .then((error) => handleFetchError(error));
 };
+export * from './types';
+export * from './errors';
 const handleFetchSuccess = async (fetchResponse) => {
     const responseType = getFetchResponseType(fetchResponse);
     const body = responseType == null ? null : await fetchResponse[responseType]();
