@@ -12,7 +12,7 @@ export const getFetchOptions = (
   );
 
   return {
-    method: fetchplusOptions.method,
+    method: fetchplusOptions.method.toUpperCase(),
     headers: fetchOptionsHeaders,
     body: fetchOptionsBody,
   };
